@@ -66,7 +66,7 @@ void bfs(int** G, int size, int s)
 int main()
 {
 	int nG1 = 5;
-
+	 
 	int** G1 = createG(nG1);
 	printG(G1, nG1);
 	bfs(G1, nG1, 1);
